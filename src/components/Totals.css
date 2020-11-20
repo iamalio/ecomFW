@@ -1,0 +1,58 @@
+.totals__totalDue {
+  width: 22vw;
+  max-height: 620px;
+  align-content: left;
+  padding: 80px;
+}
+.totals__totals {
+  width: 100%;
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.totals__totals p {
+  text-align: left;
+  width: 60%;
+}
+.totals__fees {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  margin-bottom: 20px;
+}
+.totals__priceSpan {
+  width: 40%;
+  text-align: right;
+}
+.totals__fees p {
+  text-align: left;
+  width: 60%;
+}
+.totals__totalsButtons {
+  width: 100%;
+  text-align: center;
+}
+.totals__checkOutNow {
+  width: 100%;
+  height: 58px;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #f97d01;
+  color: whitesmoke;
+}
+.totals__keepShopping {
+  width: 100%;
+  height: 58px;
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 20px;
+  color: #f97d01;
+  border-color: #f97d01;
+  border-style: solid;
+  background-color: whitesmoke;
+}

@@ -1,0 +1,15 @@
+.order{
+    width: 48vw;
+    color: rgb(9, 77, 100);
+    margin-left: 5vw;
+    border: 1px solid lightgray;
+    padding: 25px;
+}
+.order__details{
+    width: 45vw;
+}
+.order__total{
+    font-size: 38px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}

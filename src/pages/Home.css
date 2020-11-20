@@ -1,0 +1,126 @@
+.home{
+   width: 100%;
+}
+.home__mainBanner{
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background: #161415 url(/jetties.jpg) no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   text-align: left;
+   overflow: hidden;
+}
+
+.home__mainBanner h1{
+   color: rgb(9, 77, 100);
+   font-size: 110px;
+   margin-left: 80PX;
+   margin-top: 200PX;
+   margin-bottom: 90px;
+}
+.home__mainBanner h1 span{
+   color: #F97D01;
+}
+.home__mainBanner a{
+   padding: 20px;
+   color: whitesmoke;
+   text-decoration: none;
+   position: relative;
+   z-index: 22;
+   border-style: solid;
+   background-color: #F97D01;
+   height: 70px;
+   width: 200px;
+   font-size: 30px;
+   margin-left: 800px;
+}
+.home__pageContainer{
+   width: 1200px;
+   height: 2300px;
+}
+.home__featuredItem{
+height: 640px;
+width: 90vw;
+display: flex;
+flex-direction: row;
+margin-left: 5vw;
+position: relative;
+z-index: 15;
+background-color: whitesmoke;
+}
+.home__featuredItemText{
+   background-color: whitesmoke;
+   width: 40vw;
+   text-align: center;
+   position: relative;
+   z-index: 15;
+   padding: 100px;
+}
+.home__featuredItemText h1{
+   color: rgb(9, 77, 100);
+   font-size: 38px;
+}
+.home__featuredItemText p{
+   color: rgb(9, 77, 100);
+   font-size: 31px;
+   margin: 30px;
+}
+.home__featuredItemText h2{
+   color: rgb(9, 77, 100);
+   font-size: 34px;
+}
+.home__featuredItemImage{
+   width: 50vw;
+   object-fit: contain;
+}
+#waves{
+   width: 90vw;
+   z-index: 0;
+   margin-left: 5vw;
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   background: #161415 url(/waves.jpg) no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+}
+.home__favoriteProducts{
+   display: flex;
+   flex-direction: column;
+   width: 90vw;
+   margin-left: 5vw;
+   margin-top: 80px;
+   height: 600px;
+}
+.home__fanFavorites{
+   font-size: 40px;
+   margin: 20px;
+   margin-left: 38vw;
+   color: rgb(9, 77, 100);
+}
+.home__productList{
+   width: 90vw;
+   justify-content: space-evenly;
+   display: flex;
+   flex-direction: row;
+}
+.home__mainProduct{
+   width: 500px;
+   height: 640px;
+   text-align: center;
+   box-shadow: 
+        10px 5px 15px  rgba(108, 122, 136, 0.405),
+        -10px 5px 15px  rgba(108, 122, 136, 0.405);
+   color: whitesmoke;
+   font-size: 35px;
+   padding: 20px;
+   margin-top: -725px;
+   margin-left: 37vw;
+   position: relative;
+   z-index: 25;
+}
+.home__mainProduct h1{
+   width: 392x;
+}

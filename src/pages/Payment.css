@@ -1,0 +1,37 @@
+.payment {
+  color: rgb(9, 77, 100);
+  min-height: 400px;
+  max-height: 5000px;
+  width: 80vw;
+  margin-left: 5vw;
+}
+.payment h1 {
+  font-size: 28px;
+}
+.payment h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.payment__items {
+  width: 80%;
+}
+.payment__section {
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.payment__cardElement {
+  height: 28px;
+  width: 400px;
+  border: 1px solid darkgray;
+}
+
+.payment__priceContainer button{
+  width: 20%;
+  height: 38px;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #f97d01;
+  color: whitesmoke;
+}
